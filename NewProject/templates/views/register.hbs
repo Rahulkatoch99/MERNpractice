@@ -1,0 +1,67 @@
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rgistration</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    {{>navbar}}
+    errorr
+    <form action="/" method="POST">
+      <label> Firstname </label>
+      <input type="text" name="firstname" size="15" />
+      <br />
+      <br />
+      <label> Lastname: </label>
+      <input type="text" name="lastname" size="15" />
+      <br />
+      <br />
+      <label> Gender : </label><br />
+      <input type="radio" name="gender"  value="male"/>
+      Male
+      <br />
+      <input type="radio"  name="gender" value="female" />
+      Female
+      <br />
+      <input type="radio"  name="gender" value="other" />
+      Other
+      <br />
+      <br />
+
+      <label> Phone : </label>
+      <input type="text" name="country code" value="+91" size="2" />
+      <input type="text" name="phone" size="10" />
+      <br />
+      <br />
+      Address
+      <br />
+      <textarea cols="80" rows="5" name="address" value="address"> </textarea>
+      <br />
+      <br />
+      Email:
+      <input type="email"  name="email" />
+      <br />
+      <br />
+      <br />
+      Password:
+      <input type="Password"  name="password" />
+      <br />
+      <br />
+      <br />
+      Re-type password:
+      <input type="Password"  name="Confirmpassword" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script src="" async defer></script>
+  </body>
+</html>
